@@ -14,12 +14,12 @@ d. RANGE X Y - print number of elements in range x to y (both x and y included)
 #### INSERT x
 - Every element is inserted in the leaf node.So get the appropriate leaf node in which the element `x` can be inserted.
 - Insert `x` in increasing order. If this operation creates overflow we split the node as follows:
-    - first node contains n/2 keys 
+    - first node contains first n/2 keys 
     - second node contains remaining keys
     - the smallest key in the second node is copied to the parent node if exists or new node is created and then copying is done. The newly created node is made root. 
     - if parent exists and inserting key in the parent node (internal node) creates overflow, we split that internal node as follows:
-        - first node contains n/2 keys
-        - last node contains n-1/2 keys
+        - first node contains first n/2 keys
+        - second node contains last n-1/2 keys
         - remaining one node is inserted into its parent node in the same way as mentioned.
 #### FIND x
 -  searching is done as if we are inserting the element i.e first we get a appropriate node where `x` could be inserted. 
