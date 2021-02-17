@@ -25,9 +25,9 @@ d. RANGE X Y - print number of elements in range x to y (both x and y included)
 -  searching is done as if we are inserting the element i.e first we get a appropriate node where `x` could be inserted. 
 - For `x` to be present in the tree, it should be present in that particular node.
 
-### COUNT x
+#### COUNT x
 - search for the first leaf node where the element `x`could be present.
 - traverse through leaf nodes and keep track of occurances of `x`. We stop iterating when element encountered is greater than `x` or when there are no more leaf nodes in the tree.
 
-### RANGE x y
+#### RANGE x y
 - similar to `COUNT` except that here we stop iterating when the element encountered is greater than 'y' or when there are no more leaf nodes.
