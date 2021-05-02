@@ -1,9 +1,9 @@
 # B+ Tree Implementation
 Implementation of B+ tree in python to handle following types of queries.
-a. INSERT X - insert X into the B+ tree
-b. FIND X - print YES if X is already inserted, else NO
-c. COUNT X - print number of occurrences of X in B+tree
-d. RANGE X Y - print number of elements in range x to y (both x and y included) 
+- INSERT X - insert X into the B+ tree
+- FIND X - print YES if X is already inserted, else NO
+- COUNT X - print number of occurrences of X in B+tree
+- RANGE X Y - print number of elements in range x to y (both x and y included) 
 
 ## Execution
 > python3 b+_tree.py <input_file>
