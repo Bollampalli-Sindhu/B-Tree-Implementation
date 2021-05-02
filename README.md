@@ -1,5 +1,5 @@
 # B+ Tree Implementation
-- implementation of B+ tree in python to handle following types of queries.
+Implementation of B+ tree in python to handle following types of queries.
 a. INSERT X - insert X into the B+ tree
 b. FIND X - print YES if X is already inserted, else NO
 c. COUNT X - print number of occurrences of X in B+tree
